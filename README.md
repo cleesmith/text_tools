@@ -12,7 +12,7 @@ Or download the source code using the green "Code" button or "Releases" above.
 
 
 Listen at: https://www.slipthetrap.com/text_tools/text_tools.mp3
-... to an AI spoken audio version of the README demonstrates how these text tools can be part of an accessibility workflow. The tools help convert various document formats into clean text that works well with text-to-speech software, making content more accessible to users with visual impairments or reading preferences for audio content.
+... to an AI spoken audio version of this README demonstrates how these text tools can be part of an accessibility workflow. The tools help convert various document formats into clean text that works well with text-to-speech software, making content more accessible to users with visual impairments or reading preferences for audio content.
 <br>
 *TTS generated at: https://www.hailuo.ai/audio*
 
