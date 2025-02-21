@@ -11,7 +11,7 @@ Or download the source code using the green "Code" button or "Releases" above.
 ---
 
 Listen:
-- [Download or play the audio](tools_text.mp3)
+- [Download or play the audio](text_tools.mp3)
 
 Transform any document into clean, usable plain text with these free
 online/offline tools. Whether you're working with **Word .docx**, **PDF**s, **EPUB**s,
