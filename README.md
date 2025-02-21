@@ -1,6 +1,12 @@
 # text_tools
 
-## Convert documents to plain text.
+## A collection of browser-based tools for text manipulation and conversion.
+
+try it now: https://cleesmith.github.io/text_tools
+
+Or download the source code using the green "Code" button above.
+
+---
 
 Transform any document into clean, usable plain text with these free
 online/offline tools. Whether you're working with **Word .docx**, **PDF**s, **EPUB**s,
@@ -26,4 +32,7 @@ endings.
 Everything works right in your browser - no software to install, no
 sign-up required, and you can use it both online and offline
 (*by downloading and unzipping from Github*).
+
+---
+
 
