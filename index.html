@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Text Tools</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/me-hermit-1-121x119.png" type="image/x-icon">
+  <meta name="description" content="convert documents to plain text">
+
+  <link rel="stylesheet" href="css/w3.css">
+  <link href="fontawesome/css/all.min.css" rel="stylesheet">
+
+  <style>
+      body, h1, h2, h3, h4, h5, h6  {
+          font-family: Helvetica, Arial, sans-serif;
+      }
+      
+      * {
+          margin-top: 0;
+          padding-top: 0;
+      }
+
+      body {
+          transition: background-color 0.3s, color 0.3s;  /* Smooth transition for all state changes */
+      }
+
+      body:not(.dark-mode) {
+          background-color: #ffffff;
+          color: #000000;
+      }
+
+      body.dark-mode {
+          background-color: #121212 !important;  /* Override W3.CSS white background */
+          color: #e0e0e0;
+      }
+
+      body.dark-mode .w3-card-4 {
+          background-color: #1e1e1e;
+          border: 1px solid #333;
+      }
+
+      body.dark-mode .w3-container {
+          color: #e0e0e0;
+      }
+
+      body.dark-mode .w3-tooltip a {
+          color: #e0e0e0;
+      }
+
+      #darkModeToggle {
+          font-size: 20px;
+          background-color: transparent;
+          color: inherit;
+          border: 1px solid currentColor;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          cursor: pointer;
+          text-align: center;
+          margin-left: 15px;
+          vertical-align: middle;
+      }
+
+      #darkModeToggle:hover {
+          filter: brightness(1.2);
+      }
+
+      body:not(.dark-mode) #darkModeToggle {
+          background-color: #444;
+          color: #fff;
+          border-color: #444;
+      }
+
+      body.dark-mode .w3-text-black {
+          color: #ffffff !important;  /* Make black icons white in dark mode */
+      }
+
+      body.dark-mode .w3-text-light-blue {
+          color: #87CEEB !important;  /* Brighten light blue in dark mode for better visibility */
+      }
+
+      .header-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+      }
+
+      .title-group {
+          display: flex;
+          align-items: center;
+      }
+  </style>
+</head>
+
+<body class="w3-large w3-image w3-white dark-mode" style="margin-top: 0;">
+
+<div class="w3-container">
+  <div class="w3-content w3-panel" style="padding-top: 0; margin-top: 0;">
+
+    <div class="w3-card-4 w3-margin w3-round-large" style="width:100%;">
+      <header class="w3-container w3-border-bottom">
+          <div class="header-container">
+              <div class="title-group">
+                  <h3>
+                      Text Tools &nbsp;
+                  </h3>
+                  <i class="w3-small">
+                    the
+                    <span class="w3-text-red">download</span>'s 
+                    below are direct from the web browser, 
+                    more like a '<b>save as</b>' and <b>not</b> a true server download
+                  </i>
+              </div>
+              <button id="darkModeToggle" title="Switch dark and light mode">☀️</button>
+          </div>
+      </header>
+
+      <div class="w3-container w3-border-bottom">
+        <p>
+          <span class="w3-tooltip">
+            <a href="docx_readable_download.html" target="_blank" style="text-decoration:none;" title="DOCX to plain text chapters with .txt download">
+              <i class="fa-regular fa-file-word w3-text-blue w3-margin-top" style="font-size:50px; margin-right:25px;"></i>
+              <small><i><b>DOCX</b> to plain text with <b>.txt</b> <span class="w3-text-red">download</span></i></small>
+            </a>
+          </span>
+          <br>
+          <span class="w3-tooltip">
+            <a href="epub_readable_download.html" target="_blank" style="text-decoration:none;" title="EPUB to plain text with .txt download">
+              <i class="fa-solid fa-book w3-text-black w3-margin-top" style="font-size:50px; margin-right:25px;"></i>
+              <small><i><b>EPUB</b> to plain text with <b>.txt</b> <span class="w3-text-red">download</span></i></small>
+            </a>
+          </span>
+          <br>
+          <span class="w3-tooltip">
+            <a href="markdown_to_text.html" target="_blank" style="text-decoration:none;" title="Markdown to plain text with .txt download">
+              <i class="fa-brands fa-markdown w3-text-light-blue w3-margin-top" style="font-size:40px; margin-right:17px;"></i>
+              <small><i><b>Markdown</b> to plain text with <b>.txt</b> <span class="w3-text-red">download</span></i></small>
+            </a>
+          </span>
+          <br>
+          <span class="w3-tooltip">
+            <a href="pdf_readable_download.html" target="_blank" style="text-decoration:none;" title="PDF to plain text with .txt download">
+              <i class="fa-solid fa-file-pdf w3-text-black w3-margin-top" style="font-size:50px; margin-right:25px;"></i>
+              <small><i><b>PDF</b> to plain text <span class="w3-tiny">(but it does <b>not</b> remove the page headers/numbers)</span> with <b>.txt</b> <span class="w3-text-red">download</span></i></small>
+            </a>
+          </span>
+          <br>
+          <span class="w3-tooltip">
+            <a href="text_to_freq.html" target="_blank" style="text-decoration:none;" title="Text to Word Frequency">
+              <i class="fa-solid fa-person-digging w3-text-red w3-margin-top" style="font-size:45px; margin-right:12px;"></i>
+              <small><i><b>Text to Word Frequency</b> - count occurrences of each word</i></small>
+            </a>
+          </span>
+          <br>
+          <span class="w3-tooltip">
+            <a href="wrap_paragraphs.html" target="_blank" style="text-decoration:none;" title="Wrap Paragraphs">
+              <i class="fa-solid fa-book-open-reader w3-text-purple w3-margin-top" style="font-size:50px; margin-right:15px;"></i>
+              <small><i><b>wrap paragraphs</b> - to copy/paste for: reading <span class="w3-tiny">(wrap paragraphs at 70 characters)</span></i></small>
+            </a>
+          </span>
+          <br>
+          <span class="w3-tooltip">
+            <a href="unwrap_paragraphs.html" target="_blank" style="text-decoration:none;" title="Unwrap Paragraphs">
+              <i class="fa-solid fa-pencil w3-text-orange w3-margin-top" style="font-size:50px; margin-right:15px;"></i>
+              <small><i><b>unwrap paragraphs</b> - to copy/paste for: Vellum and TTS audio <span class="w3-tiny">(it's easier with Chunks below)</span></i></small>
+            </a>
+          </span>
+          <br>
+          <span class="w3-tooltip">
+            <a href="tts4000.html" target="_blank" style="text-decoration:none;" title="Text to proper Chunks for TextToSpeech audio">
+              <i class="fa-regular fa-file-audio w3-text-gray w3-margin-top" style="font-size:50px; margin-right:25px;"></i>
+              <small><i><b>Text to proper Chunks <span class="w3-tiny">(of 1000 to 5000 characters)</span> for TextToSpeech (TTS) audio</b></i></small>
+            </a>
+          </span>
+          <br>
+          <span class="w3-tooltip">
+            <a href="docx_to_blocks.html" target="_blank" style="text-decoration:none;" title="Debug DOCX as HTML blocks (like: p, h1)">
+              <i class="fa-solid fa-bug w3-text-brown w3-margin-top" style="font-size:50px; margin-right:15px;"></i>
+              <small><i>helps debug DOCX by viewing HTML blocks <span class="w3-tiny">(for example: p, h1, h2, and so on)</span></i></small>
+            </a>
+          </span>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<br><br><br>
+<div class="w3-black w3-bottom">
+  <div class="w3-center">
+    <footer class="w3-container w3-center">  
+      <div class="w3-large w3-bar">
+        <div class="w3-bar-item">
+          <a href="http://www.youtube.com/@slipthetrap" target="_blank" style="text-decoration: none;" title=". . . . . YouTube">
+            <i class="fa-brands fa-youtube w3-text-red w3-hover-greyscale"></i>
+          </a>
+        </div>
+      </div>
+      <div class="w3-bar w3-medium">
+        <div class="w3-bar-item w3-text-gray">
+          <i class="fa-regular fa-copyright"></i> 
+          2017-2025 &nbsp;
+          Chris Smith &nbsp;
+          <i class="fa-solid fa-person-hiking w3-text-green"></i>
+          <i class="fa-solid fa-peace w3-text-purple" title=". . . . . Peace!"></i>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+
+<script>
+// Dark mode toggle functionality
+document.getElementById('darkModeToggle').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+    this.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+});
+
+// Your existing menu toggle function
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
