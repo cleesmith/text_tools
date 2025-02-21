@@ -2,7 +2,7 @@
 
 ## A collection of browser-based tools for text manipulation and conversion.
 
-try it now: https://cleesmith.github.io/text_tools
+Try it now: https://cleesmith.github.io/text_tools
 
 Or download the source code using the green "Code" button above.
 
@@ -34,5 +34,4 @@ sign-up required, and you can use it both online and offline
 (*by downloading and unzipping from Github*).
 
 ---
-
 
