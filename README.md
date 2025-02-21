@@ -10,6 +10,12 @@ Or download the source code using the green "Code" button or "Releases" above.
 
 ---
 
+Listen:
+<audio controls>
+  <source src="text_tools.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 Transform any document into clean, usable plain text with these free
 online/offline tools. Whether you're working with **Word .docx**, **PDF**s, **EPUB**s,
 or **Markdown**, these converters strip away formatting while preserving
