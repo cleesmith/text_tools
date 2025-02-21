@@ -16,6 +16,9 @@ to an AI spoken audio version of this README, as a demonstration of how these te
 <br>
 *The TTS was generated at: https://www.hailuo.ai/audio*
 
+
+[![Text Tools](https://img.youtube.com/vi/I_X70nUgDpY/0.jpg)](https://www.youtube.com/live/I_X70nUgDpY)
+
 ---
 
 Transform any document into clean, usable plain text with these free
