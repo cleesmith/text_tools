@@ -3,11 +3,11 @@
 ## Convert documents to plain text.
 
 Transform any document into clean, usable plain text with these free
-online tools. Whether you're working with .docx, PDFs, EPUBs, or
-Markdown, these converters strip away formatting while preserving the
-content you need as plain text. A helpful diagnostic tool lets you
-examine the underlying HTML structure of .docx, making it easier to
-understand how your document is constructed.
+online/offline tools. Whether you're working with .docx, PDFs, EPUBs,
+or Markdown, these converters strip away formatting while preserving
+the content you need as plain text. A helpful diagnostic tool lets
+you examine the underlying HTML structure of **.docx**, making it easier
+to understand how your document is constructed.
 
 Perfect for authors preparing manuscripts for text-to-speech
 (TTS), publishers working with multiple formats, or anyone needing to
