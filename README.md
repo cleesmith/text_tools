@@ -2,13 +2,17 @@
 
 ## A collection of browser-based tools for text manipulation and conversion. <br>&nbsp;&nbsp;&nbsp;... at long last, less digital schlepping of text, and back to writing 🤓
 
+---
+
+
 Try it now: https://cleesmith.github.io/text_tools on GitHub Pages,
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or my website: https://www.slipthetrap.com/technology.html
 
 Or download the source code using the green "Code" button or "Releases" above.
 
-Listen here: https://www.slipthetrap.com/text_tools/text_tools.mp3
+---
+
 
 Listen here: https://www.slipthetrap.com/text_tools/text_tools.mp3
 ... this audio version of the README demonstrates how these text tools can be part of an accessibility workflow. The tools help convert various document formats into clean text that works well with text-to-speech software, making content more accessible to users with visual impairments or reading preferences for audio content.
