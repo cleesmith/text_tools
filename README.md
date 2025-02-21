@@ -2,9 +2,6 @@
 
 ## A collection of browser-based tools for text manipulation and conversion. <br>&nbsp;&nbsp;&nbsp;... at long last, less digital schlepping of text, and back to writing 🤓
 
----
-
-
 Try it now: https://cleesmith.github.io/text_tools on GitHub Pages,
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or my website: https://www.slipthetrap.com/technology.html
