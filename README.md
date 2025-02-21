@@ -2,6 +2,8 @@
 
 ## A collection of browser-based tools for text manipulation and conversion.
 
+### At long last, less digital schlepping of text, so back to writing.
+
 Try it now: https://cleesmith.github.io/text_tools
 
 Or download the source code using the green "Code" button above.
