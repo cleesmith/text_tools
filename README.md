@@ -8,6 +8,8 @@ Try it now: https://cleesmith.github.io/text_tools on GitHub Pages,
 
 Or download the source code using the green "Code" button or "Releases" above.
 
+Listen here: https://www.slipthetrap.com/text_tools/text_tools.mp3
+
 ---
 
 Transform any document into clean, usable plain text with these free
